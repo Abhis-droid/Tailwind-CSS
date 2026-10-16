@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Container Spacing</title>
+    <style>
+      body {
+        padding: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- MArgin -->
+    <h3>1.Margin</h3>
+    <div class="m-1 bg-yellow-100">Margin All Around</div>
+    <div class="mx-4 bg-yellow-200">Margin from X axis</div>
+    <div class="my-4 bg-yellow-300">Margin from Y axis</div>
+    <div class="mt-6 bg-yellow-400">Margin Top</div>
+    <div class="mb-6 bg-red-100">Margin Bottom</div>
+    <div class="ml-7 bg-red-200">Margin Left</div>
+    <div class="mr-9 mb-7 bg-red-300">Margin Right</div>
+
+    <!-- aribitrary spacing -->
+    <div class="m-[100px] bg-slate-600">2.Margin All Around</div>
+
+    <!-- Padding -->
+    <h3>3.Padding</h3>
+    <div class="p-5 bg-lime-200">Padding All Around</div>
+    <div class="px-5 bg-red-100">Padding X axis</div>
+    <div class="py-5 bg-red-200">Padding Y axis</div>
+    <div class="pt-7 bg-red-300">Padding Top</div>
+    <div class="pb-[50px] bg-red-400">Padding Bottom</div>
+    <div class="pl-7 bg-lime-300">Padding Left</div>
+    <div class="pr-8 bg-lime-400">Padding Right</div>
+    <br />
+    <br />
+
+    <!-- Space Between X  -->
+    <h3>3. Space Between X</h3>
+    <div class="flex space-x-10">
+      <div class="p-3 bg-teal-100">01</div>
+      <div class="p-3 bg-teal-200">02</div>
+      <div class="p-3 bg-teal-300">03</div>
+    </div>
+    <br />
+    <br />
+    <!-- Space Between Y -->
+    <h3>4. Space Between Y</h3>
+    <div class="flex-col space-y-10">
+      <div class="p-3 bg-teal-100">01</div>
+      <div class="p-3 bg-teal-200">02</div>
+      <div class="p-3 bg-teal-300">03</div>
+    </div>
+  </body>
+</html>
